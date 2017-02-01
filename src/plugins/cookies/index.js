@@ -3,11 +3,13 @@
  * @overview ChromeCookies
  */
 
-import find from 'lodash/find';
-import filter from 'lodash/filter';
-import findIndex from 'lodash/findIndex';
-import isFunction from 'lodash/isFunction';
-import URI from 'urijs';
+import {
+  find,
+  filter,
+  findIndex,
+  isFunction
+} from 'lodash';
+import URI from 'uri';
 
 import ChromeCookie from './cookie';
 import ChromeEvent from '../../events';

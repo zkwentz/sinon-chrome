@@ -3,7 +3,7 @@
  * @overview ChromeEvent class
  */
 
-import isFunction from 'lodash/isFunction';
+import isFunction from 'lodash';
 
 export default class ChromeEvent {
 

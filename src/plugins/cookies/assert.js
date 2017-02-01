@@ -3,9 +3,7 @@
  * @overview Assertation module for chrome.cookies.* methods
  */
 
-import isString from 'lodash/isString';
-import isFunction from 'lodash/isFunction';
-import isPlainObject from 'lodash/isPlainObject';
+import { isString, isFunction, isPlainObject } from 'lodash';
 
 /**
  * assert chrome.cookies.get arguments

@@ -3,8 +3,8 @@
  * @overview chrome.cookies.Cookie fake module
  */
 
-import isUndefined from 'lodash/isUndefined';
-import URI from 'urijs';
+import { isUndefined } from 'lodash';
+import URI from 'uri';
 
 export default class ChromeCookie {
 

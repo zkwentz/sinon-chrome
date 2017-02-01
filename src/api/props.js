@@ -3,7 +3,7 @@
  * @overview Props cache
  */
 
-import noop from 'lodash/noop';
+import { noop } from 'lodash';
 import BaseCache from './cache';
 
 export default class PropsCache extends BaseCache {
